@@ -1,0 +1,3 @@
+lzop -d -c  /var/lib/vz/dump/hrm.lzo  | qmrestore  - 100 --storage local-lvm --force
+
+lzop -d -c  /var/lib/vz/dump/hrm.lzo  | qmrestore  - 100 --storage first --force
